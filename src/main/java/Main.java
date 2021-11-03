@@ -33,13 +33,6 @@ import javax.security.auth.login.LoginException;
 public class Main extends EventListener {
 
     public static void main(String[] args) throws LoginException, InterruptedException {
-        //Bot Help
-        //self runable on aws
-        //Use some common Java Practices
-        //Upload to github
-
-        //TODO Make Multiserver Compatible or same database at least, Sharding?
-
 
         ConnectionString connectionString = new ConnectionString("NA");
         MongoClientSettings settings = MongoClientSettings.builder().applyConnectionString(connectionString).build();
